@@ -30,6 +30,7 @@ public class TrainUserImpl implements TrainUser {
 	
 	public void doNot(){
 		String s = "no";
+		int x = 99;
 	}
 
 }
