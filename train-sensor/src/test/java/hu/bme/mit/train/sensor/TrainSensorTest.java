@@ -20,7 +20,7 @@ public class TrainSensorTest {
 
     @Test
     public void ThisIsAnExampleTestStub() {
-    	Assert.assertEquals(0, tui.doNot(0)); 
+    	Assert.assertEquals(99, tui.doNot(0)); 
     	// TODO Delete this and add test cases based on the issues
     }
 }
