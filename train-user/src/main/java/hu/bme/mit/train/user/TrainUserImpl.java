@@ -31,7 +31,7 @@ public class TrainUserImpl implements TrainUser {
 	public void doNot(){
 		String s = "no";
 		int i = 2;
-		int x = 99;
+		int x = 99
 	}
 
 }
