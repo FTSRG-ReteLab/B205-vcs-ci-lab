@@ -28,10 +28,10 @@ public class TrainUserImpl implements TrainUser {
 		controller.setJoystickPosition(joystickPosition);
 	}
 	
-	public void doNot(){
+	public int doNot(int x){
 		String s = "no";
 		int i = 2;
-		int x = 99
+		return x = 99;
 	}
 
 }
