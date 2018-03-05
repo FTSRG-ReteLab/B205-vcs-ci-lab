@@ -14,4 +14,5 @@ public interface TrainUser {
 	
 	boolean getAlarmState();
 
+	void setCont(TrainController t);
 }

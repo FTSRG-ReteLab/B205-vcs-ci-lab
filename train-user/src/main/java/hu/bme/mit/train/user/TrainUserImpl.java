@@ -15,6 +15,11 @@ public class TrainUserImpl implements TrainUser {
 	public TrainUserImpl(TrainController controller) {
 		this.controller = controller;
 	}
+	
+	@Override
+	public void setCont(TrainController t){
+		controller = t;
+	}
 
 	@Override
 	public void setAlarmState(boolean alarmState){
