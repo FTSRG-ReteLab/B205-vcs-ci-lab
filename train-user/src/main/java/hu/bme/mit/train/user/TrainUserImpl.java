@@ -40,7 +40,7 @@ public class TrainUserImpl implements TrainUser {
 				  controller.setJoystickPosition(joystickPosition);
 				  controller.followSpeed();
 			  }
-			  },0,60*1000);
+			  },0,(long) 60*1000);
 	}
 
 }
