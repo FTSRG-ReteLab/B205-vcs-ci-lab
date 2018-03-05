@@ -37,6 +37,7 @@ public class TrainUserImpl implements TrainUser {
 		timer.scheduleAtFixedRate(new TimerTask() {
 			  @Override
 			  public void run() {
+				  //ez így jó
 				  controller.setJoystickPosition(joystickPosition);
 				  controller.followSpeed();
 			  }
