@@ -17,10 +17,11 @@ public class TrainSensorTest {
     	tui = new TrainUserImpl(null);
         // TODO Add initializations
     }
-
+/*
     @Test
     public void ThisIsAnExampleTestStub() {
     	Assert.assertEquals(99, tui.doNot(0)); 
     	// TODO Delete this and add test cases based on the issues
     }
+*/
 }

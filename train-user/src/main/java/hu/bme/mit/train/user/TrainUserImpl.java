@@ -42,11 +42,5 @@ public class TrainUserImpl implements TrainUser {
 			  }
 			  },0,60*1000);
 	}
-	
-	public int doNot(int x){
-		String s = "no";
-		int i = 2;
-		return x = 99;
-	}
 
 }
